@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "cas-severity: Injury severity analysis of the New Zealand Crash Analysis System, 2010-2024"
+abstract: >-
+  Reproducible pipeline estimating the association between light condition,
+  weather and injury severity in 153,597 reported injury crashes on the New
+  Zealand road network, using logistic regression with standard errors
+  clustered on territorial authority.
+authors:
+  - family-names: Aryal
+    given-names: Roshan
+    orcid: "https://orcid.org/0009-0001-4758-4977"
+    affiliation: "Otago Polytechnic Auckland International Campus"
+repository-code: "https://github.com/roshanaryal1/cas-severity"
+license: MIT
+keywords:
+  - road safety
+  - crash severity
+  - logistic regression
+  - open data
+  - New Zealand

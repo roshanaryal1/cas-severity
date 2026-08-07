@@ -1,0 +1,15 @@
+data/
+outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+PAPER_DRAFT.md
+DRAFT_ADDENDUM.md
+SUBMISSION_PLAN.md
