@@ -1,0 +1,11 @@
+exclusion,n_dropped,n_remaining
+Starting extract 2010-2024,0,502792
+Not an injury crash (non-injury excluded),345562,157230
+Light condition unknown,130,157100
+Weather unrecorded,545,156555
+Speed limit missing or out of range,763,155792
+Terrain unrecorded,259,155533
+Road lane configuration unrecorded,62,155471
+Lane count missing,1871,153600
+Urban/open classification missing,0,153600
+Territorial authority missing (clustering unit),3,153597

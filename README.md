@@ -1,6 +1,6 @@
 # CAS Injury Severity Analysis
 
-[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](https://doi.org/PENDING)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21839911.svg)](https://doi.org/10.5281/zenodo.21839911)
 
 Author: Roshan Aryal ([ORCID 0009-0001-4758-4977](https://orcid.org/0009-0001-4758-4977))
 Otago Polytechnic Auckland International Campus
@@ -25,11 +25,13 @@ python -m cas_severity.extract      # ~60s, caches to data/raw/
 python -m cas_severity.clean        # builds analysis sample
 python -m cas_severity.model        # fits M1-M4, writes tables 1-5
 python -m cas_severity.sensitivity  # interaction contrasts + tables 6-7
-python -m cas_severity.figures      # figures 1-3, png + pdf
+python -m cas_severity.mechanism    # VRU/fog contrasts, tables 8-10
+python -m cas_severity.temporal     # period stability, tables 11-12
+python -m cas_severity.figures      # figures 1-4, png + pdf
 ```
 
 `sensitivity` re-runs `model` internally, so running it alone reproduces
-everything except the figures.
+everything except `mechanism`, `temporal`, and the figures.
 
 ## Outputs
 
@@ -43,6 +45,11 @@ everything except the figures.
 | `table_5_lr_tests.csv` | Likelihood-ratio tests for interactions |
 | `table_6_weather_by_speed.csv` | Stratum-specific ORs (delta method) |
 | `table_7_sensitivity.csv` | Alternative sample and outcome definitions |
+| `table_8_fog_power.csv` | Statistical power by speed band, VRU crashes |
+| `table_9_weather_by_vru.csv` | Weather ORs stratified by road user type |
+| `table_10_vru_lr_test.csv` | LR test, weather x road-user-type interaction |
+| `table_11_period_specific_ors.csv` | Period-specific ORs, 2010-14/15-19/20-24 |
+| `table_12_temporal_instability.csv` | Wald/LR tests for temporal stability |
 
 ## Specification
 

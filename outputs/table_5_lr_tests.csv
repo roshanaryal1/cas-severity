@@ -1,0 +1,3 @@
+comparison,lr_chi2,df,p
+M3 light x weather vs M2 adjusted,10.634297564451117,12,0.5604917462431751
+M4 weather x speed vs M2 adjusted,38.03355976770399,8,7.4215726338528685e-06

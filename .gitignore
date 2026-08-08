@@ -1,5 +1,6 @@
-data/
-outputs/
+data/raw/
+data/interim/*
+!data/interim/analysis_sample.parquet
 __pycache__/
 *.py[cod]
 .pytest_cache/
