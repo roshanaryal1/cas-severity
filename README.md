@@ -5,8 +5,13 @@
 Author: Roshan Aryal ([ORCID 0009-0001-4758-4977](https://orcid.org/0009-0001-4758-4977))
 Otago Polytechnic Auckland International Campus
 
-Reproducible pipeline for the SSD 2026 submission: association between light
-condition, weather and injury severity in New Zealand road crashes, 2010-2024.
+[![CI](https://github.com/roshanaryal1/cas-severity/actions/workflows/ci.yml/badge.svg)](https://github.com/roshanaryal1/cas-severity/actions/workflows/ci.yml)
+
+Reproducible pipeline for a national analysis of light condition, weather and
+injury severity in New Zealand road crashes, 2010-2024. The manuscript is under
+peer review; cite the Zenodo record above until it is published.
+
+![Adjusted odds ratios for death or serious injury](outputs/fig1_forest.png)
 
 ## Data
 
@@ -58,6 +63,11 @@ crashes. Non-injury crashes are excluded from the primary sample because their
 reporting propensity plausibly varies with the conditions under study.
 
 Standard errors are clustered on territorial authority (67 clusters).
+
+## License
+
+Code: [MIT](LICENSE). Derived tables and figures in `outputs/`:
+[CC BY 4.0](LICENSE-DATA).
 
 ## Attribution
 
